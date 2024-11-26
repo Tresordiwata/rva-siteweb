@@ -8,9 +8,10 @@ import { Avatar, Button, Input, Textarea } from '@nextui-org/react'
 import { Divider } from 'antd'
 
 export const Contact = ({ titre,adresse,telephone, email, lienFormulaire,cls }) => {
+    const row=<div classname="flex gap-4 items-center text-xl font-bold  mb-7 text-white rounded-full px-3 py-2 bg-rose-600 w-fit text-center gap-2"> <ArrowRight />{titre}</div> 
     return (
         <div className={`${cls} w-1/2  rounded-sm px-3 py-2`} style={{width:"100%"}}>
-            <TitrePage t={<div className='flex gap-4 items-center text-xl font-bold  mb-7 text-white rounded-full px-3 py-2 bg-rose-600 w-fit text-center gap-2 '><ArrowRight />{titre}</div>} />
+            <div className="flex items-center text-xl font-bold  mb-7 text-white rounded-full px-3 py-2 bg-rose-600 w-fit text-center gap-2"> <ArrowRight />{titre}</div>
             <div className='mb-7 flex flex-col gap-3'>
                 <div className='flex gap-2 items-center w-fit'><MapPin size={12} /> Adresse : </div>
                 <div className='flex gap-2 items-center w-fit'><PhoneCall size={12} /> Téléphone :</div>
