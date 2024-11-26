@@ -43,11 +43,6 @@ export const menus = [
                 lien: "#"
               },
               {
-                titre: "AIS",
-                description: "Informations sur les vols",
-                lien: "#"
-              },
-              {
                 titre: "Meteo",
                 description: "Les services de l'aeroport",
                 lien: "#"
@@ -83,6 +78,18 @@ export const menus = [
                 description: "",
                 lien: "#"
               }
+            ]
+          },
+          {
+            titre: "Sécurité",
+            description: "",
+            smenu: [
+              {
+                titre: "AIS",
+                description: "",
+                lien: "#"
+              },
+              
             ]
           },
           {
