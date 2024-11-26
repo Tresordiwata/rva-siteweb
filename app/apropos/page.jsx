@@ -35,8 +35,9 @@ const page = () => {
                 <div className='items-center justify-center flex mb-10'>
                   <Titre text="Qui sommes-nous ?" />
                 </div>
-                <p>
-                  Collaboratively generate customer directed deliverables with client-focused models. Energistically re-engineer turnkey customer service through covalent "outside the box" thinking. Enthusiastically iterate user-centric ROI and resource maximizing human capital. Quickly engage fully researched applications with bricks-and-clicks.
+                <p className='text-xl'>
+                La Régie des Voies Aériennes (RVA) est une société anonyme (SA) de la République Démocratique du Congo, créée par l&#39;ordonnance-loi n° 072-13 du 21 février 1972. 
+                Elle est principalement chargée de la gestion de l’espace aérien et des aéroports du pays.
                 </p>
               </Slide>
               </div>
@@ -59,18 +60,18 @@ const page = () => {
           </div>
           <div className='w-full'>
             <Slide direction='right'>
-            <div className='items-center justify-center flex mb-10'>
+            {/* <div className='items-center justify-center flex mb-10'>
               <Titre text="Histoire de la RVA" />
-            </div>
-            <p>
-              Collaboratively generate customer directed deliverables with client-focused models. Energistically re-engineer turnkey customer service through covalent "outside the box" thinking. Enthusiastically iterate user-centric ROI and resource maximizing human capital. Quickly engage fully researched applications with bricks-and-clicks.
+            </div> */}
+            <p className='text-xl'>
+              La RVA fournit une large gamme de services dans le domaine de la navigation aérienne (gestion du trafic aérien, systèmes de communication, de navigation et de surveillance, information aéronautique, météorologie, procédures de vol aux instruments, messagerie aéronautique, formation du personnel, etc.), ainsi que des services aéroportuaires (infrastructures aéroportuaires, facilitation, sécurité incendie, sûreté, gestion des passagers,aires de stationnement, etc.). Toutefois, il convient de préciser que la RVA gère directement 52 aéroports et aérodromes parmi les nombreux aéroports que compte le pays.
             </p>
             </Slide>
           </div>
 
         </div>
       </Section>
-      <Section cls={"h-content bg-blue-950 py-[50px]"}>
+      {/* <Section cls={"h-content bg-blue-950 py-[50px]"}>
         <Slide direction='up'>
         <div className='flex items-center justify-center px-[250px] gap-4'>
           <Card>
@@ -99,7 +100,7 @@ const page = () => {
           </Card>
         </div>
         </Slide>
-      </Section>
+      </Section> */}
     </Container>
   )
 }

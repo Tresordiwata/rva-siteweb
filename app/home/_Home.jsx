@@ -125,7 +125,7 @@ export default function Home() {
                   <div className='text-justify text-white text-xl w-full'  dangerouslySetInnerHTML={{__html:dataHome?.motDg}} />
                   <div className='w-[500px] text-center text-white'>
                     <Image radius='md' src={BACKEND_URL+dataHome?.photoDg} className='w-[100%] mb-2' />
-                    <p className="font-extrabold">Leonard MBAKI</p>
+                    <p className="font-extrabold">NGOMA MBAKI Léonard</p>
                     <p>Directeur Général</p>
                   </div>
               </div>
