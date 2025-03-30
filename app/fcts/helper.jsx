@@ -4,7 +4,8 @@ export const SITEWEB_URL="http://localhost:3002/";
 // export const SITEWEB_URL="https://indexrdc.com/";
 
 // export const BACKEND_URL="http://localhost/root/backend-rva-siteweb/";
-export const BACKEND_URL="https://api.fulaye.com/rva-siteweb/";
+// export const BACKEND_URL="https://api.fulaye.com/rva-sitewebs/";
+export const BACKEND_URL="https://ads-rdc.com/api/";
 
 export const oldUrl="https://projetsite.rva.cd/index2.php"
 // export const oldUrl="https://www.shazam.com/"

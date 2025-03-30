@@ -308,9 +308,9 @@ const Header = () => {
   //     alert("mobile")
   //    }
   const padding = "px-[280px]";
-  const section1 = "flex flex-row  w-[230px] items-center justify-center";
+  const section1 = "flex flex-row  w-[200px] items-center justify-center";
   const tailleIconSection1 = 70;
-  const section1Text = "text-[18px] font-[300]";
+  const section1Text = "text-[17px] font-[300px]";
   return (
     <>
       <nav
